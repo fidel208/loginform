@@ -8,7 +8,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 1500px;
-    height: auto;
+    height: 907px;
 }
 .logo {
     display: flex;
@@ -48,10 +48,13 @@ body {
 }
 input {
     width: 400px;
-    height: 30px;
-    padding: 5px;
+    height: 20px;
+    padding: 10px;
     font-size: 20px;
     border-radius: 5px;
+    border: 1px #E5E7EB;
+    outline: none;
+    box-shadow: 0 0 5px rgb(117, 112, 112);
 }
 .form {
     box-shadow: 0 0 010px rgb(172, 152, 152);
@@ -70,6 +73,7 @@ input {
 .last {
     margin-left: 120px;
     margin-top: 30px;
+    height: fit-content;
 }
 .last > p {
     margin-top: 30px;
@@ -91,18 +95,31 @@ button {
 .fn {
     margin-bottom: 30px;
 }
+.fn > input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgb(117, 112, 112);
+}
 .ln {
     margin-bottom: 30px;
+}
+.ln > input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgb(117, 112, 112);
 }
 .email {
     margin-bottom: 30px;
 }
+.email > input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgb(117, 112, 112);
+}
 .pn {
     margin-bottom: 30px;
 }
-.password {
-    margin-bottom: 30px;
+.pn > input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgb(117, 112, 112);
 }
-.cpassword {
-    margin-bottom: 30px;
+input:invalid {
+    box-shadow: 0 0 0 1px red;
 }
