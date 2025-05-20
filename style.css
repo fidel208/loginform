@@ -1,13 +1,14 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
 }
 .left {
     background: url(clayton-cardinalli-ls03C02UsGg-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    width: 700px;
-    height: 900px;
+    width: 1500px;
+    height: auto;
 }
 .logo {
     display: flex;
@@ -18,7 +19,7 @@ body {
 .inside {
     display: flex;
     align-items: center;
-    margin-top: 400px;
+    margin-top: 500px;
     width: 100%;
     height: 130px;
     background-color: rgb(0, 0, 0, 0.5);
@@ -32,4 +33,76 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.words {
+    padding: 40px;
+    margin-left: 70px;
+}
+.words > p {
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form {
+    box-shadow: 0 0 010px rgb(172, 152, 152);
+    height: 380px;
+}
+.form > h1 {
+    margin-left: 80px;
+    padding-left: 40px;
+}
+.signup {
+    display: flex;
+    flex-direction: right;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.last {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.last > p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.last > p > a {
+    text-decoration: none;
+    color: #596D48;
+}
+button {
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    font-size: 25px;
+    background-color: #596D48;
+    border: none;
+}
+.fn {
+    margin-bottom: 30px;
+}
+.ln {
+    margin-bottom: 30px;
+}
+.email {
+    margin-bottom: 30px;
+}
+.pn {
+    margin-bottom: 30px;
+}
+.password {
+    margin-bottom: 30px;
+}
+.cpassword {
+    margin-bottom: 30px;
 }
