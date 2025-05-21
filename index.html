@@ -27,7 +27,7 @@
         </div>
         <div class="form">
             <h1>Lets do this!</h1>
-            <form action="" class="signup" method="post">
+            <form action="" class="signup" id="signupform" method="post">
                 <div class="fn">
                     <label for="first_name">FIRST NAME <span aria-label="required">*</span></label> <br>
                     <input type="text" id="first_name" name="first_name">
@@ -57,11 +57,13 @@
                     <input type="password" id="cpassword" name="cpassword" required>
                 </div>
             </form>
+            <span class="error" id="error"></span>
         </div>
         <div class="last">
-            <button type="submit">Create Account</button>
+            <button type="submit" id="signupButton">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
